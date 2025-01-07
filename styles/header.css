@@ -1,0 +1,37 @@
+header {
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 30px;
+    width: 150px;
+}
+
+.header__link {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color:black;
+}
+
+.header__button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 90px;
+    height: 45px;
+    margin-left: 15px;
+    color:white;
+    background-color: #27934b;
+    border: none;
+    border-radius: 15px;
+}
+
+.header__button:hover {
+    color: #FFF;
+    background-color: orange;
+    transition: color, background-color 0.2s ease-in;
+}

@@ -1,0 +1,177 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1D263A;
+}
+
+.about {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url('../img/back.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about__info {
+    max-width: 550px;
+}
+
+.about__info h1 {
+    font-size: 70px;
+    line-height: 76px;
+}
+
+.about__info p {
+    font-size: 18px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.about__info button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    opacity: 0.8;
+    color:white;
+    padding: 20px 25px;
+    margin-top: 20px;
+    background-color: #27934b;
+    border: none;
+    border-radius: 20px;
+}
+
+.about__info button:hover {
+    color: #FFF;
+    background-color: orange;
+    transition: color, background-color 0.2s ease-in;
+}
+
+.about__sun-image {
+    width: 100px;
+}
+
+.about__solar-panel-image {
+    width: 550px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    background-color: #1D263A;
+    color: #FFF;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    text-align: center;
+}
+
+.form__container {
+    width: 550px;
+}
+
+.form h1 {
+    font-size: 48px;
+}
+
+.form p {
+    font-size: 18px;
+    opacity: 0.65;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.form__group label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.form__group input {
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #213053;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+.form__group select {
+    appearance: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #213053;
+    height: 50px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
+}
+
+.form__submit {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    color:white;
+    background-color: #27934b;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.form__submit:hover {
+    color: #FFF;
+    background-color: orange;
+    transition: color, background-color 0.2s ease-in;
+}
+
+.footer__container {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.7;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer__container_contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container_solutions {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container_company {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__copyright {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.5;
+}
